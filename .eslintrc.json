@@ -34,6 +34,7 @@
 		"react/prop-types": "warn",
 		"react/self-closing-comp": "warn",
 		"react/jsx-one-expression-per-line": "off",
-		"react/jsx-indent-props": "off"
+		"react/jsx-indent-props": "off",
+		"import/no-unresolved": "off"
 	}
 }

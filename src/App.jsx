@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from './components/Card';
-import coffee from './assets/img/coffee.svg';
+import Card from '@components/Card';
+import coffee from '@img/coffee.svg';
 
 const App = () => {
 	return (

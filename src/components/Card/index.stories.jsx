@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import coffee from '@img/coffee.svg';
 import Card from '.';
-import coffee from '../../assets/img/coffee.svg';
 
 const decoratorStyle = {
 	display: 'flex',
