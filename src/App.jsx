@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from './components/Card';
-import logo from './logo.svg';
+import coffee from './assets/img/coffee.svg';
 
 const App = () => {
 	return (
 		<div className="app-wrapper">
 			<Card
-				icon={logo}
+				icon={coffee}
 				title="Café com código"
 				points={1500}
 				responsible="RH"

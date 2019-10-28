@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Card from '.';
-import logo from '../../logo.svg';
+import coffee from '../../assets/img/coffee.svg';
 
 const decoratorStyle = {
 	display: 'flex',
@@ -16,5 +16,10 @@ const centerDecorator = storyFn => (
 storiesOf('Card', module)
 	.addDecorator(centerDecorator)
 	.add('Basic', () => (
-		<Card icon={logo} title="Café com código" points={1500} responsible="RH" />
+		<Card
+			icon={coffee}
+			title="Café com código"
+			points={1500}
+			responsible="RH"
+		/>
 	));
