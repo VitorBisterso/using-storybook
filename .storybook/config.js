@@ -1,4 +1,11 @@
-import { configure } from '@storybook/react';
+import React from 'react';
+import { configure, addDecorator } from '@storybook/react';
 
-// automatically import all files ending in *.stories.js
-configure(require.context('../src', true, /\.stories\.jsx$/), module);
+import '../src/index.css'
+
+const globalDecorator = story => (
+	<div className="app-wrapper">{story()}</div>
+);
+
+addDecorator(globalDecorator);
+configure(require.context('../src/components', true, /\.stories\.jsx$/), module);
