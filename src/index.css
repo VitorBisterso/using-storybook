@@ -11,7 +11,20 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 	monospace;
 }
-  
+ 
+:root {
+	--colors-black: rgba(0, 0, 0, 1);
+	--colors-gray: rgba(102, 102, 102, 1);
+	--colors-light-gray: rgba(234, 237, 244, 1);
+	--colors-light-purple: rgba(181, 119, 237, 1);
+	--colors-purple: rgba(143, 19, 253, 1);
+	--colors-shadow: rgba(0, 0, 0, 0.12);
+	--colors-white: rgba(255, 255, 255, 1);
+
+	--texts-big: 18px;
+	--texts-small: 14px;
+}
+
 .app-wrapper {
 	display: flex;
 	justify-content: center;

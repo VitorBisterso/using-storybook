@@ -4,24 +4,24 @@
 	justify-content: center;
 	text-align: center;
 	background-color: #ffffff;
-	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 4px 6px var(--colors-shadow);
 	border-radius: 4px;
 }
 
 .card-information {
 	padding: 20px 40px 10px 40px;
-	border-bottom: 1px solid #eaedf4;
+	border-bottom: 1px solid var(--colors-light-gray);
 }
 
 .card-title {
 	font-weight: 500;
-	font-size: 18px;
-	color: #000000;
+	font-size: var(--texts-big);
+	color: var(--colors-black);
 }
 
 .card-points-responsible {
-	font-size: 14px;
-	color: #666666;
+	font-size: var(--texts-small);
+	color: var(--colors-gray);
 }
 
 .card-footer {
@@ -31,13 +31,13 @@
 }
 
 .card-footer > p {
-	font-size: 14px;
-	color: #8f13fd;
+	font-size: var(--texts-small);
+	color: var(--colors-purple);
 	text-align: center;
 }
 
 .card-footer > p:hover {
 	cursor: pointer;
-	color: #b577ed;
+	color: var(--colors-light-purple);
 	transition-duration: 0.2s;
 }
