@@ -1,0 +1,16 @@
+{
+	"colors": {
+		"black": "rgba(0, 0, 0, 1)",
+		"commandGray": "rgba(246, 248, 250, 1)",
+		"gray": "rgba(102, 102, 102, 1)",
+		"lightGray": "rgba(234, 237, 244, 1)",
+		"lightPurple": "rgba(181, 119, 237, 1)",
+		"purple": "rgba(143, 19, 253, 1)",
+		"shadow": "rgba(0, 0, 0, 0.12)",
+		"white": "rgba(255, 255, 255, 1)"
+	},
+	"texts": {
+		"big": "18px",
+		"small": "14px"
+	}
+}

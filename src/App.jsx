@@ -1,16 +1,16 @@
 import React from 'react';
-import Card from './components/Card';
-import coffee from './assets/img/coffee.svg';
+import Label from './components/Label';
+
+import * as globalCss from './global-css.json';
 
 const App = () => {
 	return (
 		<div className="app-wrapper">
-			<Card
-				icon={coffee}
-				title="Café com código"
-				points={1500}
-				responsible="RH"
-			/>
+			<Label color={globalCss.colors.black} size={globalCss.texts.big}>
+				This is just a project to learn more about storybook. To see the
+				stories run
+			</Label>
+			<p className="command-text">npm run storybook</p>
 		</div>
 	);
 };

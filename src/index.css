@@ -14,6 +14,7 @@ code {
  
 :root {
 	--colors-black: rgba(0, 0, 0, 1);
+	--colors-command-gray: rgba(246, 248, 250, 1);
 	--colors-gray: rgba(102, 102, 102, 1);
 	--colors-light-gray: rgba(234, 237, 244, 1);
 	--colors-light-purple: rgba(181, 119, 237, 1);
@@ -27,7 +28,13 @@ code {
 
 .app-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+}
+
+.command-text {
+	background-color: var(--colors-command-gray);
+	padding: 16px;
 }
